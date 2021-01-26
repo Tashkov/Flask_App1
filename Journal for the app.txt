@@ -1,0 +1,7 @@
+This is a second iteration of the same app
+The main problems with the first one were that i had the same instances of pip, flask and sqlalchemy installed on different directories on my PC
+That is why i deleted everything, did a clean install of Python, Flask and SQLAlchemy and now everything seems to work just fine
+
+There are some html templates with inheretance using jinja2 sintax
+Also i built a functionning DB 
+
