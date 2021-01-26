@@ -36,9 +36,10 @@ all_posts = [
 def index():
     return render_template('index.html')
 
+# this is the uri for our app
 @app.route('/posts', methods = ['GET', 'POST'])
 def posts():
-
+# the logic behind it can`t yet Create or Read, prompots DB
     if request.method == "POST":
         post_title = request.form['title']
         post_content = request.form['content']
