@@ -5,3 +5,10 @@ That is why i deleted everything, did a clean install of Python, Flask and SQLAl
 There are some html templates with inheretance using jinja2 sintax
 Also i built a functionning DB 
 
+Entry 01.02.2021 
+The main idea now is to switch the db from sqlite to postgresql. 
+  - I have to find out how to do this.
+  - I have to make a written plan before going forward with any coding
+  - Write down all the possible ways it can go wrong
+Important task:
+  - Check how to do migration 
